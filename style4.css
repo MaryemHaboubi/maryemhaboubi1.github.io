@@ -1,0 +1,25 @@
+hgroup{
+    color:red;
+}
+div{
+    color:green;
+}
+span{
+    color:yellow;
+}
+figure {
+    border: solid black;
+    display:block;
+    max-width: 200px;
+    margin: auto;
+  }
+img {
+    max-width: 200px;
+    max-height: 200px;
+  }
+figcaption {
+    background-color: #222;
+    color: #fff;   
+    text-align: center;
+  }
+  

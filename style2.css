@@ -1,0 +1,35 @@
+#tab1{
+    border-color: blue;
+    border-width: 2mm;
+    border-style: double;
+    border-radius: 5%;
+    
+}
+#tab2{
+    border-color: red;
+    border-width: 3mm;
+    border-style:dotted;
+   position:center;
+}
+table{
+    width:100%;
+    margin-left: auto;
+    margin-left: auto;
+
+}
+p {
+    animation-duration: 3s;
+    animation-name: slidein;
+  }
+  
+  @keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 100%;
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }

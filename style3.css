@@ -1,0 +1,46 @@
+h6{
+  animation-duration: 4s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+  animation-direction:alternate;
+  animation-timing-function: ease-out;
+}
+  
+/*h6 {
+  animation: 4s infinite alternate slidein;
+}*/
+
+@keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 100%;
+  }
+
+    to {
+      margin-left: 0%;
+      width: 100%;
+      }}
+      
+      
+      
+      h2{
+        
+        Animation-name : fade ;
+        Animation-delay : 1s;
+        Animation-duration : 3s;
+        Animation-iteration-count : infinite;
+        animation-fill-mode: forwards;
+        animation-play-state: running;
+      }
+     
+      @keyframes fade {
+        from {
+          Opacity : 1;
+          color:red;
+        }
+        to {
+          Opacity : 0;
+        }}
+#para1:hover{
+  color:red;
+}      
